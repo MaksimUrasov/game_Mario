@@ -36,3 +36,10 @@ console.log('remove fall down class');
 
   
 
+//   var regex="(?!(?:[^<]+>|[^>]+<\/a>))\b(" + value + ")\b";
+//   new RegExp(regex, "is")
+
+//   // (?! not followed By
+
+//     //     \b find a match in the beginning / end  \b
+// //  [^<] 

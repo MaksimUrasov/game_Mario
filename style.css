@@ -1,3 +1,13 @@
+h1 {
+  text-align: center;
+  color:brown;
+}
+p {
+  text-align: center;
+  color:brown;
+  font-size: 1.5em;
+}
+
 .game {
   width: 600px;
   height: 200px;
