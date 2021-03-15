@@ -45,22 +45,23 @@ p {
 }
 
 .jump {
-    animation: jumpMov 0.6s linear;
+    animation: jumpMov 0.5s cubic-bezier(.11,.51,.86,.5);
+    /*animation-direction: alternate;*/
 }
 
 @keyframes jumpMov {
   0% {
     top:145px;
   }
-  10% {
+  /*10% {
     top: 110px;
-  }
-  40% {
-    top: 50px;
-  }
+  }*/
+  50% {
+    top: 40px;
+  }/*
   70% {
     top: 110px;
-  }
+  }*/
   100% {
     top: 145px;
   }
@@ -92,7 +93,8 @@ p {
 
 .fallDown {
   animation: fallDownMov 1s cubic-bezier(.45,-1.1,1,.25);
-  border: red solid
+  border: red solid;
+  /*animation-delay: -2s;*/
 }
 
 @keyframes fallDownMov {
